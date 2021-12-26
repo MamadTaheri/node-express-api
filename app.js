@@ -6,7 +6,9 @@ const postsData = new Post();
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     next();
-})
+});
+
+app.use("/uploads", express.static('uploads'))
 
 app.get("/", (req, res) => {
     res.status(200).send('server is up');
