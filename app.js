@@ -151,7 +151,7 @@ app.get('/products', (req, res) => {
 app.get('/products/:id', (req, res) => {
     const { id } = req.params;
 
-    res.json(products.find(q => q.id === id));
+    res.json(products.find(q => q.id == id));
 });
 
 app.listen(3333, () => {
