@@ -5,7 +5,7 @@ const Pouyapanahzadeh = {
   linkedin: "https://www.linkedin.com/in/pouya-panahzadeh-678ba5b0/",
   github: "https://github.com/Pou4a",
   jobTitle: "Frontend Developer",
-  About: ``,
+  About: ` `,
 };
 
 module.exports = Pouyapanahzadeh;
