@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MamadTaheri68/node-my-blog-api.git"
+    "url": "git+https://github.com/MamadTaheri68/node-express-api.git"
   },
   "author": "Mamad Taher",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MamadTaheri68/node-my-blog-api/issues"
+    "url": "https://github.com/MamadTaheri68/node-express-api/issues"
   },
-  "homepage": "https://github.com/MamadTaheri68/node-my-blog-api#readme",
+  "homepage": "https://github.com/MamadTaheri68/node-express-api#readme",
   "dependencies": {
     "express": "^4.17.2",
     "multer": "^1.4.4"
